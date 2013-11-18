@@ -17,8 +17,8 @@ development:
   encoding: unicode
   database: bookstore_development
   pool: 5
-  username: bookstore
-  password:
+  username: begemot
+  password: D1nam02010
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -43,13 +43,13 @@ test:
   encoding: unicode
   database: bookstore_test
   pool: 5
-  username: bookstore
-  password:
+  username: begemot
+  password: D1nam02010
 
 production:
   adapter: postgresql
   encoding: unicode
   database: bookstore_production
   pool: 5
-  username: bookstore
-  password:
+  username: begemot
+  password: D1nam02010
