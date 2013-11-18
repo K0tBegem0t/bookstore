@@ -1,0 +1,6 @@
+postgres  1032  0.0  0.6 162580 12964 ?        S    14:55   0:00 /usr/lib/postgresql/9.3/bin/postgres -D /var/lib/postgresql/9.3/main -c config_file=/etc/postgresql/9.3/main/postgresql.conf
+postgres  1100  0.0  0.1 162580  2528 ?        Ss   14:55   0:00 postgres: checkpointer process                                                                                              
+postgres  1101  0.0  0.1 162580  2272 ?        Ss   14:55   0:00 postgres: writer process                                                                                                    
+postgres  1102  0.0  0.0 162580  1276 ?        Ss   14:55   0:00 postgres: wal writer process                                                                                                
+postgres  1103  0.0  0.1 163008  2340 ?        Ss   14:55   0:00 postgres: autovacuum launcher process                                                                                       
+postgres  1104  0.0  0.0  20704  1372 ?        Ss   14:55   0:00 postgres: stats collector process                                                                                           
